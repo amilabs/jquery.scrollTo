@@ -11,10 +11,10 @@
 	'use strict';
 	if (typeof define === 'function' && define.amd) {
 		// AMD
-		define(['@rikishi/jquery'], factory);
+		define(['jquery'], factory);
 	} else if (typeof module !== 'undefined' && module.exports) {
 		// CommonJS
-		module.exports = factory(require('@rikishi/jquery'));
+		module.exports = factory(require('jquery'));
 	} else {
 		// Global
 		factory(jQuery);

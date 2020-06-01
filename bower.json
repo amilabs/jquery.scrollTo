@@ -15,7 +15,7 @@
     "package.json"
   ],
   "dependencies": {
-    "@rikishi/jquery": "2.2.4"
+    "jquery": "2.2.4"
   },
   "keywords": [
     "browser", "animated", "animation", "jquery",
