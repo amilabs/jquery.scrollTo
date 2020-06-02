@@ -1,6 +1,6 @@
 {
   "name": "@rikishi/jquery.scrollto",
-  "version": "2.1.6",
+  "version": "2.1.7",
   "description": "Lightweight, cross-browser and highly customizable animated scrolling with jQuery",
   "main": "jquery.scrollTo.js",
   "license": "MIT",
@@ -13,8 +13,8 @@
     "composer.json",
     "bower.json"
   ],
-  "dependencies": {
-    "jquery": "2.2.4"
+  "peerDependencies": {
+    "@rikishi/jquery": "2.2.*"
   },
   "homepage": "https://github.com/flesler/jquery.scrollTo/",
   "docs": "https://github.com/flesler/jquery.scrollTo/",

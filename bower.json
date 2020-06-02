@@ -14,8 +14,8 @@
     "composer.json",
     "package.json"
   ],
-  "dependencies": {
-    "jquery": "2.2.4"
+  "peerDependencies": {
+    "@rikishi/jquery": "2.2.*"
   },
   "keywords": [
     "browser", "animated", "animation", "jquery",
